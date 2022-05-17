@@ -20,13 +20,13 @@
     <div class="priheder">
         <div class="socialmedia">
             <a href="www.facebook.com" target="_blank">
-                <img src="/facebook.png" alt="facebook" style="height: 25px; width:25px;">
+                <img src="/images/facebook.png" alt="facebook" style="height: 25px; width:25px;">
             </a>
             <a href="www.instagram.com" target="_blank">
-                <img src="/instagram.png" alt="instagram" style="height: 25px; width:25px;">
+                <img src="/images/instagram.png" alt="instagram" style="height: 25px; width:25px;">
             </a>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQvtWHMpNchSxLrMRtBwTNcGmZPQKqjCvJNLnLztwrrwNVjlzZZJFRSkQBmsWHfdXkQ" target="_blank">
-                <img src="/mail.png" alt="mail" style="height: 25px; width:25px;">
+                <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px;">
             </a>
         </div>
         <h3 style="margin-top: 3px;">+38112345678</h3>
@@ -43,7 +43,7 @@
             <a href="/kontakt.php" style="text-decoration: none; list-style-type: none; color: black; overflow: hidden;">KONTAKT</a> &nbsp;
             </div>
         </div> 
-        <img src="/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+        <img src="/images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
         <br>
     </header>
     <div class="prvastranica">
@@ -76,43 +76,43 @@
         <table>
             <tr style="padding:65px; border:1px solid black;">
                 <th>
-                <img src="/blender.png" alt="Blender" style="float:left"><br>
+                <img src="/images/blender.png" alt="Blender" style="float:left"><br>
                 <h3>
                    Blender
                 </h3>
                 </th>
                 <th>
-                <img src="/phs.png" alt="Photoshop" style="display:center"><br>
+                <img src="/images/phs.png" alt="Photoshop" style="display:center"><br>
                 <h3>
                     Adobe Photohop
                 </h3>
                 </th>
                 <th>
-                <img src="/ilu.png" alt="Unrealengine"><br>
+                <img src="/images/ilu.png" alt="Unrealengine"><br>
                 <h3>
                   Adobe Ilustrator
                 </h3>
                 </th>
                 <th>
-                <img src="/light.png" alt="Unrealengine"><br>
+                <img src="/images/light.png" alt="Unrealengine"><br>
                 <h3>
                   Adobe Lightroom
                 </h3>
                 </th>
                 <th>
-                <img src="/ue.png" alt="Unrealengine"><br>
+                <img src="/images/ue.png" alt="Unrealengine"><br>
                 <h3>
                   Unreal Engine
                 </h3>
                 </th>
                 <th>
-                <img src="/frame.png" alt="Unrealengine"><br>
+                <img src="/images/frame.png" alt="Unrealengine"><br>
                 <h3>
                   Adobe Framemaker
                 </h3>
                 </th>
                 <th>
-                <img src="/in.png" alt="Unrealengine"><br>
+                <img src="/images/in.png" alt="Unrealengine"><br>
                 <h3>
                   Adobe Indesign
                 </h3>
@@ -130,13 +130,13 @@
        Jedan deo radova koje smo imali priliku odraditi.
      </h1> <br><br><br><br>
      <div class="gallery">
-    <img src="/s5.jpg" alt="Primer 1" width="500" height="300">
+    <img src="/images/s5.jpg" alt="Primer 1" width="500" height="300">
 </div>
 <div class="gallery">
-    <img src="/s2.jpg" alt="Primer 2" width="500" height="300">
+    <img src="/images/s2.jpg" alt="Primer 2" width="500" height="300">
 </div>
 <div class="gallery">
-    <img src="/s4.jpg" alt="Primer 3" width="500" height="300">
+    <img src="/images/s4.jpg" alt="Primer 3" width="500" height="300">
 </div><br><br>
 <div class="center">
 <button class="radovidugme" type="button" onclick="location.href = '/radovi.php';">
@@ -159,31 +159,31 @@
                 Za sva pitanja, sugestije ili saradnju možete nas kontaktirati na nekoliko načina:
             </h3><br><br><br>
             <div>
-                <img src="/telefon.png" alt="telefon" style="height: 25px; width:25px; margin-right: 300px;">
+                <img src="/images/telefon.png" alt="telefon" style="height: 25px; width:25px; margin-right: 300px;">
                 <h3 style="text-align: center; margin-right: 110px; margin-top: -25px;">+38112345678</h3>
             </div><br>
             <div>
-                <img src="/adresa.png" alt="adresa" style="height: 25px; width:25px; margin-right: 300px;">
+                <img src="/images/adresa.png" alt="adresa" style="height: 25px; width:25px; margin-right: 300px;">
                 <h3 style="text-align: center; margin-right: -70px; margin-top: -25px;">Mihajla Pupina 37 52509 Novi Sad
                 </h3>
             </div><br>
             <div>
                 <a href="www.instagram.com" target="_blank">
-                    <img src="/instagram.png" alt="instagram" style="height: 25px; width:25px; margin-right: 300px;">
+                    <img src="/images/instagram.png" alt="instagram" style="height: 25px; width:25px; margin-right: 300px;">
                 </a>
                 <h3 style="text-align: center; margin-right: 30px; margin-top: -25px;">@3DModeliranjeMNA
                 </h3>
             </div><br>
             <div>
                 <a href="www.facebook.com" target="_blank">
-                    <img src="/facebook.png" alt="facebook" style="height: 25px; width:25px; margin-right: 300px;">
+                    <img src="/images/facebook.png" alt="facebook" style="height: 25px; width:25px; margin-right: 300px;">
                 </a>
                 <h3 style="text-align: center; margin-right: 30px; margin-top: -25px;">3D Modeliranje MNA
                 </h3>
             </div><br>
             <div>
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQvtWHMpNchSxLrMRtBwTNcGmZPQKqjCvJNLnLztwrrwNVjlzZZJFRSkQBmsWHfdXkQ" target="_blank">
-                    <img src="/mail.png" alt="mail" style="height: 25px; width:25px; margin-right: 300px;">
+                    <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px; margin-right: 300px;">
                 </a>
                 <h3 style="text-align: center; margin-right: -55px; margin-top: -25px;">3DModeliranjeMNA@gmail.com
                 </h3>
@@ -193,13 +193,13 @@
             <h1 class="fun"> 3D Modeling MNA</h1>
             <div class="socialfuter">
                 <a href="www.instagram.com" target="_blank">
-                    <img src="/instagram.png" alt="instagram" style="height: 25px; width: 25px;">
+                    <img src="/images/instagram.png" alt="instagram" style="height: 25px; width: 25px;">
                 </a>
                 <a href="www.facebook.com" target="_blank">
-                    <img src="/facebook.png" alt="facebook" style="height: 25px; width:25px;">
+                    <img src="/images/facebook.png" alt="facebook" style="height: 25px; width:25px;">
                 </a>
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQvtWHMpNchSxLrMRtBwTNcGmZPQKqjCvJNLnLztwrrwNVjlzZZJFRSkQBmsWHfdXkQ" target="_blank">
-                    <img src="/mail.png" alt="mail" style="height: 25px; width:25px;">
+                    <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px;">
                 </a>
             </div><br>
             <p style="text-align:center ;">

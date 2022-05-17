@@ -33,10 +33,9 @@ header{
     overflow: hidden;
     margin-top: 15px;
     color: black;
+    margin-right: 50px;
 }
 .meni:hover{
-    background-color:#e9ded6 ;
-    color: white;
     overflow: hidden;
 }
 .meni a{
@@ -44,13 +43,18 @@ header{
     background-color: transparent;
     overflow: hidden;
 }
+
 .menu-icon{
-  display: none;
+  display: block;
   overflow: hidden;
+  float: right;
+  margin-top: 12px;
+  margin-right: -500px;
 }
+
 .prvastranica{
     padding: 100px;
-    background-image: url(/s1.jpg);
+    background-image: url(/images/s1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -130,6 +134,7 @@ header{
       background-color: rgb(255, 255, 255);
       font-family: 'Gruppo', cursive;
      padding: 100px;
+     overflow: hidden;
   }
   .kontakt{
     background-color: rgba(255, 255, 255, 0.925);
@@ -157,7 +162,7 @@ header{
     background-color: transparent;
     cursor: pointer; 
     padding: 15px; 
-    background-image: url(/up.png);
+    background-image: url(/images/up.png);
     background-repeat: no-repeat;
     background-size:30px 30px;
     border: none;
@@ -170,7 +175,7 @@ header{
     text-align: justify;
   }
   .slika1{
-    background-image: url(/osnivaci.jpg);
+    background-image: url(/images/osnivaci.jpg);
     padding: 200px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,7 +214,7 @@ header{
     font-weight: bolder;
   }
 .slika2{
-  background-image: url(/s3.jpg);
+  background-image: url(/images/s3.jpg);
     padding: 200px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,7 +231,7 @@ header{
     padding: 140px;
   }
   .slika3{
-    background-image: url(/12.jpg);
+    background-image: url(/images/12.jpg);
       padding: 200px;
       background-repeat: no-repeat;
       background-size: cover;
@@ -239,7 +244,7 @@ header{
       text-align: center;
     }
     .slika4{
-      background-image: url(/index2.jpg);
+      background-image: url(/images/index2.jpg);
         padding: 200px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -257,8 +262,8 @@ header{
            width: 100%;
            background-color: rgba(255, 255, 255, 0.61);
            position: absolute;
-           top:65px;
-           right: 0;
+           top:60px;
+           right: -50px;
            z-index: 2;
     }
     .meni a{
@@ -273,12 +278,13 @@ header{
       display: block;
       cursor: pointer;
       overflow: hidden;
-      float: right;
-      padding: 13px;
+      float: none;
       width: 30px;
+      margin-left: 370px;
     }
     #menulist{
       overflow: hidden;
       transition: 0.5s;
     }
   }
+ 
