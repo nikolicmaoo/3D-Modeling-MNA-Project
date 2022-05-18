@@ -190,6 +190,7 @@ header{
     width: 180px;
     padding-left: 150px;
     padding-right: 150px;
+    overflow: hidden;
   }
  .center {
    text-align: center;
@@ -212,6 +213,7 @@ header{
   }
   .desc{
     font-weight: bolder;
+    padding: 15px;
   }
 .slika2{
   background-image: url(/images/s3.jpg);
@@ -224,6 +226,7 @@ header{
     color: black;
     font-family: 'Gruppo', cursive;
     padding: 100px;
+    overflow: hidden;
   }
   .gallery2{
     width: 180px;
@@ -242,6 +245,7 @@ header{
       padding: 150px;
       font-family: 'Gruppo', cursive;
       text-align: center;
+      overflow: hidden;
     }
     .slika4{
       background-image: url(/images/index2.jpg);
@@ -258,6 +262,10 @@ header{
 
   @media only screen and (max-width:700px) {
     
+    .fun{
+      font-size: x-large;
+      margin-top: 3px;
+    }
     .meni{
            width: 100%;
            background-color: rgba(255, 255, 255, 0.61);
@@ -279,12 +287,127 @@ header{
       cursor: pointer;
       overflow: hidden;
       float: none;
-      width: 30px;
+      width: 25px;
       margin-left: 370px;
     }
     #menulist{
       overflow: hidden;
       transition: 0.5s;
+    }
+    .prvastranica{
+      padding: 0;
+      margin: 0;
+      padding-bottom: 130px;
+    }
+    .prvitekst{
+      text-align: justify;
+      padding: 0;
+      margin-left: 0;
+      padding-left: 35px;
+      margin-top: -100px;
+    }
+    .dd{
+      margin-left: 0;
+      padding: 0;
+    }
+    .prvitekst h2{
+      font-size: medium;
+    }
+    .prvitekst h1{
+      font-size: medium;
+    }
+    .slika4{
+      padding: 100px;
+    }
+    .tekst4{
+      font-size: small;
+    }
+    .onama{
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    .onamatekst{
+      font-size: x-large;
+      padding: 0%;
+      margin: 0;
+    }
+    .tabela th{
+      display:block;
+      padding: 30px;
+      row-gap: 25px;  
+      float: none;
+    }
+    .tabela h3{
+      font-size: larger;
+    }
+    .gallery{
+      padding: 0;
+      display: block;
+      width: max-content;
+    }
+    .cene{
+     padding: 0;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .cenetekst{
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: x-large;
+    }
+    .kontakt{
+     padding: 30px;
+     margin: 0%;
+     overflow: hidden;
+     size: 100%;
+     box-sizing: border-box;
+     width: 100%;
+    }
+    .kontakt h3{
+      padding: 0px;
+      margin: 0;
+    }
+    .futer p{
+      font-size: small;
+    }
+    .slika1{
+      padding: 35px;
+    }
+    .glavnasec{
+      padding: 25px;
+    }
+    .osnivaci{
+      margin-left: 35px;
+    }
+    .slika2{
+      padding: 35px;
+    }
+    .radovisec{
+      padding: 25px;
+      padding-left: 0%;
+    }
+    .radovisec h2{
+      font-size: larger;
+    }
+    .radovitekst{
+      text-align: center;
+      padding: 15px;
+    }
+    .gallery2{
+      width: fit-content;
+      padding: 0;
+    }
+    .slika3{
+    padding: 35px;
+    }
+    .glavnakontakt{
+      padding: 25px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .glavnakontakt h2{
+      font-size: larger;
+      padding-top: -150px;
     }
   }
  

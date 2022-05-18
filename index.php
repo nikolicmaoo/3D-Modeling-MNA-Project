@@ -49,7 +49,7 @@
     <div class="prvastranica">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div class="prvitekst"><br><br><br><br>
-            <h1 style="font-size: 65px;">Dobrodošli.</h1>
+            <h1 style="font-size: 65px;" class="dd">Dobrodošli.</h1>
             <h2>3D modeling samo za Vas.</h2> <br>
             <button class="dugme" type="button" onclick="location.href = '/onama.php';">
                 Saznaj više
@@ -63,20 +63,21 @@
     top:50%; left:50%; transform:translate(-50%,-50%);">
         </lord-icon>
     </div> <br><br><br>
+    <div data-aos="fade-up">
     <div class="slika4">
     <div class="tekst4">
         <h1>
             Mlada korporacija sa mladim i ambicioznim kolektivom sa sedištem u Novom Sadu.
         </h1>
-    </div> </div>
+    </div> </div></div>
     <div data-aos="fade-right">
         <form class="onama">
-        <h1 style="text-align: center;">
+        <h1 style="text-align: center;" class="onamatekst">
           Tehnologije koje korstimo prilikom izrade. </h1><br><br><br>
-        <table>
+        <table class="tabela">
             <tr style="padding:65px; border:1px solid black;">
                 <th>
-                <img src="/images/blender.png" alt="Blender" style="float:left"><br>
+                <img src="/images/blender.png" alt="Blender" style="text-align:left"><br>
                 <h3>
                    Blender
                 </h3>
@@ -126,7 +127,7 @@
     </script> 
     <div data-aos="fade-up">
         <form class="cene">
-     <h1 style="text-align:center;">
+     <h1 style="text-align:center;" class="cenetekst">
        Jedan deo radova koje smo imali priliku odraditi.
      </h1> <br><br><br><br>
      <div class="gallery">
@@ -152,36 +153,36 @@
         <span style="--i:5">A</span>
         <span style="--i:6">K</span>
         <span style="--i:7">T</span>
-    </div> <br><br><br><br><br><br><br>
+    </div> <br><br><br><br><br>
     <div data-aos="fade-right">
         <form class="kontakt">
             <h3>
                 Za sva pitanja, sugestije ili saradnju možete nas kontaktirati na nekoliko načina:
             </h3><br><br><br>
-            <div>
+            <div class="kontel">
                 <img src="/images/telefon.png" alt="telefon" style="height: 25px; width:25px; margin-right: 300px;">
                 <h3 style="text-align: center; margin-right: 110px; margin-top: -25px;">+38112345678</h3>
             </div><br>
-            <div>
+            <div class="konadr">
                 <img src="/images/adresa.png" alt="adresa" style="height: 25px; width:25px; margin-right: 300px;">
                 <h3 style="text-align: center; margin-right: -70px; margin-top: -25px;">Mihajla Pupina 37 52509 Novi Sad
                 </h3>
             </div><br>
-            <div>
+            <div class="koninsta">
                 <a href="www.instagram.com" target="_blank">
                     <img src="/images/instagram.png" alt="instagram" style="height: 25px; width:25px; margin-right: 300px;">
                 </a>
                 <h3 style="text-align: center; margin-right: 30px; margin-top: -25px;">@3DModeliranjeMNA
                 </h3>
             </div><br>
-            <div>
+            <div class="konfb">
                 <a href="www.facebook.com" target="_blank">
                     <img src="/images/facebook.png" alt="facebook" style="height: 25px; width:25px; margin-right: 300px;">
                 </a>
                 <h3 style="text-align: center; margin-right: 30px; margin-top: -25px;">3D Modeliranje MNA
                 </h3>
             </div><br>
-            <div>
+            <div class="konmail">
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQvtWHMpNchSxLrMRtBwTNcGmZPQKqjCvJNLnLztwrrwNVjlzZZJFRSkQBmsWHfdXkQ" target="_blank">
                     <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px; margin-right: 300px;">
                 </a>

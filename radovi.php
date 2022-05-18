@@ -16,13 +16,13 @@
 <div class="priheder">
         <div class="socialmedia">
             <a href="www.facebook.com" target="_blank">
-                <img src="/facebook.png" alt="facebook" style="height: 25px; width:25px;">
+                <img src="/images/facebook.png" alt="facebook" style="height: 25px; width:25px;">
             </a>
             <a href="instagram.com" target="_blank">
-                <img src="/instagram.png" alt="instagram" style="height: 25px; width:25px;">
+                <img src="/images/instagram.png" alt="instagram" style="height: 25px; width:25px;">
             </a>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQvtWHMpNchSxLrMRtBwTNcGmZPQKqjCvJNLnLztwrrwNVjlzZZJFRSkQBmsWHfdXkQ" target="_blank">
-                <img src="/mail.png" alt="mail" style="height: 25px; width:25px;">
+                <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px;">
             </a>
         </div>
         <h3 style="margin-top: 3px;">+38112345678</h3>
@@ -32,11 +32,15 @@
             <h1 class="fun"> 3D Modeling MNA</h1>
         </div>
         <div class="meni">
+            <div id="menulist">
             <a href="/index.php" style="text-decoration: none; list-style-type: none; color: black;">HOME</a> &nbsp;
             <a href="/onama.php" style="text-decoration: none; list-style-type: none; color: black;">O NAMA</a> &nbsp;
             <a href="/radovi.php" style="text-decoration: none; list-style-type: none; color: black;">RADOVI</a> &nbsp;
             <a href="/kontakt.php" style="text-decoration: none; list-style-type: none; color: black; overflow: hidden;">KONTAKT</a> &nbsp;
         </div>
+        </div>
+        <img src="/images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+        <br>
     </header>
     <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
     <div class="slika2">
@@ -53,44 +57,44 @@
         AOS.init();
     </script>
      <section class="radovisec">
-         <h2 style="text-align: center;">
+         <h2 style="text-align: center;" class="radovitekst">
              Naša mala korporacija je imala prilike da radi na 10+ projekata.
          </h2><br><br><br> 
          <div class="gallery2">
-        <img src="/s2.jpg" alt="Primer 1" width="500" height="300">
+        <img src="/images/s2.jpg" alt="Primer 1" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/s4.jpg" alt="Primer 2" width="500" height="300">
+        <img src="/images/s4.jpg" alt="Primer 2" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/s5.jpg" alt="Primer 3" width="500" height="300">
+        <img src="/images/s5.jpg" alt="Primer 3" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/s3.jpg" alt="Primer 4" width="500" height="300">
+        <img src="/images/s3.jpg" alt="Primer 4" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/kontakt.jpg" alt="Primer 5" width="500" height="300">
+        <img src="/images/kontakt.jpg" alt="Primer 5" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/radovi.jpg" alt="Primer 6" width="500" height="300">
+        <img src="/images/radovi.jpg" alt="Primer 6" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/s6.jpg" alt="Primer 7" width="500" height="300">
+        <img src="/images/s6.jpg" alt="Primer 7" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/7.jpg" alt="Primer 8" width="500" height="300">
+        <img src="/images/7.jpg" alt="Primer 8" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/8.jpg" alt="Primer 9" width="500" height="300">
+        <img src="/images/8.jpg" alt="Primer 9" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/9.jpg" alt="Primer 10" width="500" height="300">
+        <img src="/images/9.jpg" alt="Primer 10" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/10.jpg" alt="Primer 11" width="500" height="300">
+        <img src="/images/10.jpg" alt="Primer 11" width="500" height="300">
     </div>
     <div class="gallery2">
-        <img src="/11.jpg" alt="Primer 12" width="500" height="300">
+        <img src="/images/11.jpg" alt="Primer 12" width="500" height="300">
     </div>
      </section>
     </div>
@@ -98,13 +102,13 @@
             <h1 class="fun"> 3D Modeling MNA</h1>
             <div class="socialfuter">
                 <a href="www.instagram.com" target="_blank">
-                    <img src="/instagram.png" alt="instagram" style="height: 25px; width: 25px;">
+                    <img src="/images/instagram.png" alt="instagram" style="height: 25px; width: 25px;">
                 </a>
                 <a href="www.facebook.com" target="_blank">
-                    <img src="/facebook.png" alt="facebook" style="height: 25px; width:25px;">
+                    <img src="/images/facebook.png" alt="facebook" style="height: 25px; width:25px;">
                 </a>
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQvtWHMpNchSxLrMRtBwTNcGmZPQKqjCvJNLnLztwrrwNVjlzZZJFRSkQBmsWHfdXkQ" target="_blank">
-                    <img src="/mail.png" alt="mail" style="height: 25px; width:25px;">
+                    <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px;">
                 </a>
             </div><br>
             <p style="text-align:center ;">

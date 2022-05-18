@@ -16,13 +16,13 @@
 <div class="priheder">
         <div class="socialmedia">
             <a href="www.facebook.com" target="_blank">
-                <img src="/facebook.png" alt="facebook" style="height: 25px; width:25px;">
+                <img src="/images/facebook.png" alt="facebook" style="height: 25px; width:25px;">
             </a>
             <a href="www.instagram.com" target="_blank">
-                <img src="/instagram.png" alt="instagram" style="height: 25px; width:25px;">
+                <img src="/images/instagram.png" alt="instagram" style="height: 25px; width:25px;">
             </a>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQvtWHMpNchSxLrMRtBwTNcGmZPQKqjCvJNLnLztwrrwNVjlzZZJFRSkQBmsWHfdXkQ" target="_blank">
-                <img src="/mail.png" alt="mail" style="height: 25px; width:25px;">
+                <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px;">
             </a>
         </div>
         <h3 style="margin-top: 3px;">+38112345678</h3>
@@ -32,11 +32,15 @@
             <h1 class="fun"> 3D Modeling MNA</h1>
         </div>
         <div class="meni">
+            <div id="menulist">
             <a href="/index.php" style="text-decoration: none; list-style-type: none; color: black;">HOME</a> &nbsp;
             <a href="/onama.php" style="text-decoration: none; list-style-type: none; color: black;">O NAMA</a> &nbsp;
             <a href="/radovi.php" style="text-decoration: none; list-style-type: none; color: black;">RADOVI</a> &nbsp;
             <a href="/kontakt.php" style="text-decoration: none; list-style-type: none; color: black; overflow: hidden;">KONTAKT</a> &nbsp;
         </div>
+        </div>
+        <img src="/images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+        <br>
     </header>
     <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
     <div class="slika1">
@@ -65,31 +69,32 @@ Nadamo se da ćete uživati u našim proizvodima onoliko koliko mi uživamo da 
 S poštovanjem,<br>
 Osnivači 3D Modeling MNA-a, Ivan, Andjela i Lazar.
             </h3><br><br><br><br>
+            <div class="osnivaci">
     <div class="gallery">
-        <img src="/osnivac1.jpg" alt="Osnivac 1" width="300" height="300">
+        <img src="/images/osnivac1.jpg" alt="Osnivac 1" width="300" height="300">
         <div class="desc">Ivan Ivanović</div>
     </div>
     <div class="gallery">
-        <img src="/osnivac3.jpg" alt="Osnivac 2" width="300" height="300">
+        <img src="/images/osnivac3.jpg" alt="Osnivac 2" width="300" height="300">
         <div class="desc">Andjela Andjelković</div>
     </div>
     <div class="gallery">
-        <img src="/osnivac2.jpg" alt="Osnivac 3" width="300" height="300">
+        <img src="/images/osnivac2.jpg" alt="Osnivac 3" width="300" height="300">
         <div class="desc">Lazar Lazarev</div>
-    </div><br><br>
+    </div></div><br><br>
     </div>
 </section>
 <footer class="futer"><br>
             <h1 class="fun"> 3D Modeling MNA</h1>
             <div class="socialfuter">
                 <a href="www.instagram.com" target="_blank">
-                    <img src="/instagram.png" alt="instagram" style="height: 25px; width: 25px;">
+                    <img src="/images/instagram.png" alt="instagram" style="height: 25px; width: 25px;">
                 </a>
                 <a href="www.facebook.com" target="_blank">
-                    <img src="/facebook.png" alt="facebook" style="height: 25px; width:25px;">
+                    <img src="/images/facebook.png" alt="facebook" style="height: 25px; width:25px;">
                 </a>
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQvtWHMpNchSxLrMRtBwTNcGmZPQKqjCvJNLnLztwrrwNVjlzZZJFRSkQBmsWHfdXkQ" target="_blank">
-                    <img src="/mail.png" alt="mail" style="height: 25px; width:25px;">
+                    <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px;">
                 </a>
             </div><br>
             <p style="text-align:center ;">
