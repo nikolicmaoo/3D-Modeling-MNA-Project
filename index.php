@@ -49,7 +49,7 @@
     <div class="prvastranica">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div class="prvitekst"><br><br><br><br>
-            <h1 style="font-size: 65px;" class="dd">Dobrodošli.</h1>
+            <h1 class="dd">Dobrodošli.</h1>
             <h2>3D modeling samo za Vas.</h2> <br>
             <button class="dugme" type="button" onclick="location.href = '/onama.php';">
                 Saznaj više
@@ -165,7 +165,7 @@
             </div><br>
             <div class="konadr">
                 <img src="/images/adresa.png" alt="adresa" style="height: 25px; width:25px; margin-right: 300px;">
-                <h3 style="text-align: center; margin-right: -70px; margin-top: -25px;">Mihajla Pupina 37 52509 Novi Sad
+                <h3 style="text-align: center; margin-right: -62px; margin-top: -25px;">Mihajla Pupina 37 52509 Novi Sad
                 </h3>
             </div><br>
             <div class="koninsta">

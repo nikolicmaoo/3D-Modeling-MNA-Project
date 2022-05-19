@@ -29,7 +29,6 @@ header{
     font-size: larger;
     float: right;
     font-weight: bolder;
-    margin-right: 0%;
     overflow: hidden;
     margin-top: 15px;
     color: black;
@@ -69,6 +68,9 @@ header{
     margin-top: -225px;
     overflow: hidden;
     color: white;
+}
+.prvitekst h1{
+  font-size: 65px;
 }
 .priheder{
     background-color: #c5a57e;
@@ -187,10 +189,11 @@ header{
   }
   .gallery {
     display: inline-block;
-    width: 180px;
-    padding-left: 150px;
+    width: 260px;
+    padding-left: 115px;
     padding-right: 150px;
     overflow: hidden;
+    max-width: 100%;
   }
  .center {
    text-align: center;
@@ -260,7 +263,7 @@ header{
     text-align: center;
   }
 
-  @media only screen and (max-width:700px) {
+  @media only screen and (max-width:425px) {
     
     .fun{
       font-size: x-large;
@@ -283,12 +286,12 @@ header{
            text-align: right;
     }
     .menu-icon{
-      display: block;
+      display: flex;
       cursor: pointer;
       overflow: hidden;
       float: none;
       width: 25px;
-      margin-left: 370px;
+      margin-left: 390px;
     }
     #menulist{
       overflow: hidden;
@@ -314,7 +317,7 @@ header{
       font-size: medium;
     }
     .prvitekst h1{
-      font-size: medium;
+      font-size: 50px;
     }
     .slika4{
       padding: 100px;
@@ -410,4 +413,107 @@ header{
       padding-top: -150px;
     }
   }
+
+  @media only screen and (max-width:320px)
+  {
+    .menu-icon{
+          margin-left: 280px;
+    }
+    .prvitekst{
+      padding-left: 0%;
+      padding: 25px;
+      text-align: justify;
+    }
+    .prvitekst h1{
+      font-size: 40px;
+    }
+    .slika4{
+      padding: 50px;
+    }
+    .tabela th{
+      padding: 20px;
+      margin-left: -20px;
+    }
+    .gallery{
+      margin: 0%;
+      padding: 0%;
+    }
+    .kontakt{
+      box-sizing: border-box;
+      padding: 15px;
+      font-size: 15px;
+    }
+  .osnivaci{
+    margin-left: 0px;
+  }
+  .glavnakontakt {
+    font-size: 15px;
+    padding: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin:0%;
+  }
+  }
+@media only screen and (max-width:375px) and (min-width:321px){
+  .menu-icon{
+    margin-left: 330px;
+  }
+  .osnivaci{
+    margin-left:  15px;
+  }
+}
+@media only screen and (max-width:768px) and (min-width:426px){
+  .menu-icon{
+    float: none;
+    margin-left: 720px;
+    width: 25px;
+  }
+  .fun{
+    font-size: x-large;
+    margin-top: 3px;
+  }
+.prvitekst{
+  margin-left: -50px;
+}
+.tabela th, tr{
+  padding: 10px;
+  padding-left: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+.onama{
+  padding: 50px;
+}
+.slika4{
+  padding: 150px;
+}
+.gallery{
+  padding-left: 80px;
+}
+.kontakt{
+  width: 50%;
+  margin-left: 20%;
+}
+.slika1{
+  padding: 100px;
+}
+.glavnasec{
+  padding: 100px;
+}
+.osnivaci{
+  margin-left: 55px;
+}
+.slika2{
+  padding: 100px;
+}
+.gallery2{
+  padding:20px;
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+.slika3{
+  padding: 100px;
+}
+}
  

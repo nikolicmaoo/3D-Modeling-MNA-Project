@@ -67,7 +67,7 @@
             </div><br>
             <div>
                 <img src="/images/adresa.png" alt="adresa" style="height: 25px; width:25px; margin-right: 300px;">
-                <h3 style="text-align: center; margin-right:-70px; margin-top: -25px;">Mihajla Pupina 37 52509 Novi Sad
+                <h3 style="text-align: center; margin-right:-62px; margin-top: -25px;">Mihajla Pupina 37 52509 Novi Sad
                 </h3>
             </div><br>
             <div>
@@ -90,7 +90,39 @@
                 </a>
                 <h3 style="text-align: center; margin-right: -55px; margin-top: -25px;">3DModeliranjeMNA@gmail.com
                 </h3>
-            </div>
+            </div> <br><br><br><br><br>
+            <?php if (isset($message)) : ?>
+    <div class="alert alert-success">
+        <?= $message ?>
+    </div>
+<?php endif ?>
+
+<form action="indexmail.php" method="post">
+    <header style="background-color: none;">
+        <h1>Pošaljite nam poruku!</h1>
+    </header><br><br>
+
+    <div>
+        <label for="name">Ime:</label>
+        <input type="text" value="<?= $inputs['name'] ?? '' ?>" name="name" id="name" placeholder="Puno ime">
+        <small><?= $errors['name'] ?? '' ?></small>
+    </div>
+<br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" value="<?= $inputs['email'] ?? '' ?>" placeholder="Email addres-a">
+        <small><?= $errors['email'] ?? '' ?></small>
+    </div>
+<br>
+    <div>
+        <label for="message">Poruka:</label>
+        <textarea id="message" name="message" rows="5"><?= $inputs['message'] ?? '' ?></textarea>
+        <small><?= $errors['message'] ?? '' ?></small>
+    </div><br>
+
+    <button type="submit">Send Message</button>
+</form>
+
         </section>
 </div>
         <footer class="futer"><br>
