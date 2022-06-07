@@ -18,13 +18,6 @@ if ($email) {
     $errors['email'] = 'Please enter an email';
 }
 
-// validate subject
-$subject = filter_input(INPUT_POST, 'subject');
-$inputs['subject'] = $subject;
-if (!$subject || trim($subject) === '') {
-    $errors['subject'] = 'Please enter the subject';
-}
-
 // validate message
 $message = filter_input(INPUT_POST, 'message');
 $inputs['message'] = $message;

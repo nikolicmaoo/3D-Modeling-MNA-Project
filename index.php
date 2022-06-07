@@ -30,7 +30,7 @@
             </a>
         </div>
         <h3 style="margin-top: 3px;">+38112345678</h3>
-    </div>
+</div>
     <header>
         <div class="logo">
         <h1 class="fun"> 3D Modeling MNA</h1>
@@ -203,7 +203,7 @@
                     <img src="/images/mail.png" alt="mail" style="height: 25px; width:25px;">
                 </a>
             </div><br>
-            <p style="text-align:center ;">
+                 <p style="text-align:center ;">
                 &copy; All rights reserved <?php echo date('Y'); ?>
             </p><br>
             <p style="text-align:center ;">

@@ -97,30 +97,29 @@
     </div>
 <?php endif ?>
 
-<form action="indexmail.php" method="post">
-    <header style="background-color: none;">
+<form action="/indexmail.php" method="post">
         <h1>Pošaljite nam poruku!</h1>
-    </header><br><br>
+    <br><br>
 
-    <div>
+    <div style="font-weight:bolder;">
         <label for="name">Ime:</label>
-        <input type="text" value="<?= $inputs['name'] ?? '' ?>" name="name" id="name" placeholder="Puno ime">
+        <input type="text" value="<?= $inputs['name'] ?? '' ?>" name="name" id="name" placeholder="Puno ime" style="padding:5px;">
         <small><?= $errors['name'] ?? '' ?></small>
     </div>
 <br>
-    <div>
+    <div style="font-weight: bolder;">
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" value="<?= $inputs['email'] ?? '' ?>" placeholder="Email addres-a">
+        <input type="email" name="email" id="email" value="<?= $inputs['email'] ?? '' ?>" placeholder="Email addres-a" style="padding:5px;">
         <small><?= $errors['email'] ?? '' ?></small>
     </div>
 <br>
-    <div>
+    <div style="font-weight:bolder;" >
         <label for="message">Poruka:</label>
         <textarea id="message" name="message" rows="5"><?= $inputs['message'] ?? '' ?></textarea>
         <small><?= $errors['message'] ?? '' ?></small>
     </div><br>
 
-    <button type="submit">Send Message</button>
+    <button type="submit" class="posaljidugme">Posalji poruku</button>
 </form>
 
         </section>

@@ -35,7 +35,7 @@ if ($request_method === 'GET') {
         $_SESSION['inputs'] =   $inputs;
     }
 
-    header('Location: index.php', true, 303);
+    header('Location: /index.php', true, 303);
     exit;
 }
 ?>

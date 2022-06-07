@@ -262,8 +262,30 @@ header{
     font-family: 'Gruppo', cursive;
     text-align: center;
   }
+  .posaljidugme{
+    padding: 15px; 
+    background-color:transparent;
+    font-family: 'Gruppo', cursive;
+    font-weight:bolder;
+    border-radius: 15px;
+    cursor: pointer;
+    transition-duration:0.7s;
+    overflow: hidden;
+    color: black;
+    border: black;
+    font-size: large;
+  }
+  .posaljidugme:hover{
+    background-color: #e9ded6;
+    color: black;
+    border: #e9ded6;
+    overflow: hidden;
+  }
+  textarea{
+    padding: 20px;
+  }
 
-  @media only screen and (max-width:425px) {
+  @media only screen and (max-width:425px){
     
     .fun{
       font-size: x-large;
